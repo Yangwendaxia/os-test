@@ -57,12 +57,14 @@ import android.os.Handler;
 import android.os.Message;
 
 /**
+ * 全局应用程序类：用于保存和调用全局应用配置及访问网络数据.
  * @author liux (http://my.oschina.net/liux)
  * @version 1.0
  * @created 2012-3-21
  */
 public class AppContext extends Application {
 	
+	public static final int NETTYPE_OTHER = 0x00;
 	public static final int NETTYPE_WIFI = 0x01;
 	public static final int NETTYPE_CMWAP = 0x02;
 	public static final int NETTYPE_CMNET = 0x03;
@@ -1691,4 +1693,3 @@ public class AppContext extends Application {
 	}	
 	
 }
-
