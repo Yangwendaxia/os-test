@@ -64,7 +64,6 @@ import android.os.Message;
  */
 public class AppContext extends Application {
 	
-	public static final int NETTYPE_4G = 0x00;
 	public static final int NETTYPE_WIFI = 0x01;
 	public static final int NETTYPE_CMWAP = 0x02;
 	public static final int NETTYPE_CMNET = 0x03;
